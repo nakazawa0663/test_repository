@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root 'peoples#index'
+  get 'users/index'
+  root 'users#index'
 end
